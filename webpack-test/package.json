@@ -13,7 +13,6 @@
     "style-loader": "^0.13.0"
   },
   "scripts": {
-    "bundle": "webpack ./entry.js bundle.js --module-bind \"css=style!css\"",
     "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
