@@ -1,1 +1,1 @@
-document.write('it works.');fs
+document.write(require('./content.js'));
