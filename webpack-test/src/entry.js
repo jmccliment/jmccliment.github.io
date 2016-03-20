@@ -1,2 +1,3 @@
 require('./style.css');
-document.write(require('./content.js'));
+var content = require('./content.js');
+document.write(content);

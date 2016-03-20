@@ -45,7 +45,8 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	__webpack_require__(1);
-	document.write(__webpack_require__(5));
+	var content = __webpack_require__(5);
+	document.write(content);
 
 /***/ },
 /* 1 */
