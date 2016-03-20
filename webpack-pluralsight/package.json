@@ -1,0 +1,14 @@
+{
+  "name": "webpack-pluralsight",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    
+  },
+  "author": "Jeremy McCliment",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack-dev-server": "^1.14.1"
+  }
+}
