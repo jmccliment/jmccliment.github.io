@@ -42,11 +42,35 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(1);
+	module.exports = __webpack_require__(2);
+
+
+/***/ },
+/* 1 */
 /***/ function(module, exports) {
 
-	document.write("Welcome to Big Hair Concerts!!!");
+	// This is global JS provided to all apps.
+	console.log('logging from the utils.js file...');
+
+
+/***/ },
+/* 2 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(3);
+
+	document.write("Welcome to Big Hair Concerts!");
 
 	console.log('app loaded');
+
+/***/ },
+/* 3 */
+/***/ function(module, exports) {
+
+	console.log('login loaded');
 
 /***/ }
 /******/ ]);
